@@ -1,148 +1,45 @@
-# TUSHAR KUMAR - COMPREHENSIVE PROFILE
+TUSHAR KUMAR - SOFTWARE DEVELOPER
+Contact: jangratushar348@gmail.com | +91 9354741487
+Links: GitHub: tushar-kumar-9354 | LinkedIn: tushar-kumar-a9354o | Portfolio: tushar-portfolio-1.onrender.com
+Location: New Delhi
 
-## PERSONAL INFORMATION
-- Name: Tushar Kumar
-- Role: Software Developer
-- Email: jangratushar348@gmail.com
-- Phone: +91 9354741487
-- GitHub: https://github.com/tushar-kumar-9354
-- LinkedIn: https://www.linkedin.com/in/tushar-kumar-a9354o/
-- Portfolio: https://tushar-portfolio-1.onrender.com
-- Location: 187 Chhattarpur, New Delhi 110074
+SUMMARY
+Software Developer with experience in AI-powered web apps using Python, Django, FastAPI. Skilled in Generative AI, automation, and backend development. Strong DSA foundation (200+ problems solved).
 
-## PROFESSIONAL SUMMARY
-Motivated and detail-oriented Software Developer with hands-on experience building real-world AI-powered web applications using Python, Django, FastAPI, and PostgreSQL. Proficient in Generative AI (Gemini API, Hugging Face), automation (Selenium, gTTS), and data handling (Pandas, REST APIs). Strong foundation in Data Structures, Algorithms, and Software Engineering. Currently solving 200+ DSA problems to strengthen core logic. Eager to contribute to impactful projects in a collaborative development environment.
+EDUCATION
+B.Tech CSE, ADGITM Delhi (2021-2025) | CGPA: 8.89/10
 
-## EDUCATION
-- Degree: B.Tech in Computer Science
-- University: Dr. Akhilesh Das Gupta Institute of Technology & Management (ADGITM), Delhi
-- Duration: 2021 - 2025
-- CGPA: 8.89/10
-- Coursework: Data Structures & Algorithms, Object-Oriented Programming, Operating Systems, DBMS, Computer Networks, Software Engineering, Web Development, Machine Learning
+SKILLS
+Languages: Python
+Frameworks: Django, FastAPI, Flask
+AI/ML: Gemini API, Hugging Face, LangChain, Fine-tuning LLMs, Prompt Engineering
+Backend: REST APIs, PostgreSQL, JWT Auth, Celery
+Tools: Git, Docker, GitHub Actions, Selenium, Pandas
+Core CS: DSA, OOP, DBMS, OS
 
-## TECHNICAL SKILLS
+PROJECTS
+Civic Complaint Portal - Django/PostgreSQL complaint tracking system
 
-### Programming Languages:
-- Python
+Resume AI - AI resume optimizer with skill gap analysis
 
-### Web Frameworks:
-- Django
-- FastAPI
-- Flask
+Python Mastery Platform - AI-enhanced learning with quizzes
 
-### AI & Automation:
-- Generative AI
-- Agentic AI (Gemini API, Hugging Face, Google GenAI)
-- Prompt Engineering
-- gTTS
-- Vosk
-- Fine-tuning LLMs
-- Selenium
-- Web Scraping
-- Structured Logging
-- Langchain
-- Langflow
-- celery
+Auto News Summarizer - Real-time news scraping & sentiment analysis
 
-### Backend & Data:
-- REST APIs
-- PostgreSQL
-- Pandas
-- NumPy
-- Matplotlib
-- SQL
-- SQLite
-- ORM
+Chat-Zone - Real-time AI chat with WebSockets
 
-### DevOps & Tools:
-- Git
-- GitHub
-- Docker (basic)
-- GitHub Actions (CI/CD)
-- Linux
-- VS Code
+GenAI Hub - Multi-modal AI platform (text/image/audio)
 
-### Computer Science Fundamentals:
-- Data Structures & Algorithms
-- DBMS
-- OOP
-- Operating Systems
-- Computer Networks
+SmartOps - Automated business reporting (reduced workload 60%)
 
-### Other:
-- JWT Auth
-- Cron/Celery Scheduling
-- Logging
+ACHIEVEMENTS
+10+ end-to-end projects
 
-## PROJECTS
+10+ GitHub repositories
 
-### 1. Civic Complaint Registration Portal
-Web app for registering and tracking civic complaints with real-time status updates.
-- Technologies: Python, Django, PostgreSQL
-- Impact: Improved transparency and efficiency in complaint resolution
-- Features: Role-based access control, Real-time updates, Secure user/admin workflows
+200+ DSA problems solved
 
-### 2. Resume AI (AI-Powered Resume Optimizer)
-Full-stack AI system to analyze resumes, identify skill gaps, and recommend personalized projects.
-- Technologies: Python, Django, PostgreSQL, OpenAI GPT, NLP
-- Impact: Improved job readiness through guided upskilling with measurable progress
-- Metrics: 35% improvement in job readiness
+Multiple Infosys certifications
 
-### 3. Python Mastery - AI-Enhanced Learning Platform
-Self-paced Python learning platform covering concepts from basics to advanced levels.
-- Technologies: Python, Generative AI, Automation
-- Impact: Enhanced learning with AI assistants and personalized quizzes
-- Metrics: 40% improvement in engagement
-
-### 4. Auto News Summarizer & Sentiment Tracker
-Real-time web tool to scrape headlines, summarize news, and analyze sentiment from online articles.
-- Technologies: Python, Selenium, Gemini API, Pandas, NLP
-- Impact: Automated news digestion for faster content consumption
-
-### 5. Chat-Zone - Real-Time AI Chat Application
-Full-stack real-time chat app using Django and WebSockets for seamless AI communication.
-- Technologies: Python, Django, WebSockets, Generative AI, NLP, JavaScript
-- Impact: Scalable platform for intelligent user interaction
-
-### 6. GenAI Hub - Multi-Modal Generative AI Platform
-Centralized platform to experiment with text, image, audio, and chatbot use cases.
-- Technologies: Python, Generative AI, Hugging Face, gTTS, Prompt Engineering
-- Impact: Enables fast prototyping of creative GenAI ideas
-
-### 7. SmartOps: AI-Powered Automated Reporting System
-Automated weekly business reporting with AI summaries, visualizations, and KPI extraction.
-- Technologies: Python, Django, Celery, Pandas, LangChain, Ollama
-- Impact: Reduced manual reporting workload by 60%
-- Features: Anomaly detection, Auto-generated PDFs/CSVs, Dashboard insights
-
-## ACHIEVEMENTS
-- Completed 10+ end-to-end projects
-- Maintained 10+ GitHub repositories
-- Solved 200+ DSA problems to strengthen core algorithmic skills
-- Strong AI + Backend + Automation portfolio
-
-## CERTIFICATIONS
-- Python Programming - Infosys Springboard
-- Django Web Framework - Infosys Springboard
-- Generative AI - Infosys
-- Agentic AI - Infosys
-- Pandas & Data Analysis - Infosys
-- Selenium Automation - Infosys
-- Web Development Basics - Infosys
-
-## KEY HIGHLIGHTS
-- Motivated and detail-oriented Software Developer
-- Hands-on experience with AI-powered web applications
-- Strong foundation in Data Structures, Algorithms, and Software Engineering
-- Eager to contribute to impactful projects in collaborative environments
-- Seeking Backend/AI Developer roles at scalable product companies
-
-## HOBBIES & INTERESTS
-- Fitness
-- Music
-- Travelling
-- Cricket
-- Self-Improvement
-
-## CAREER OBJECTIVES
-Seeking Backend/AI Developer roles at scalable, high-impact product companies. Want to contribute to impactful projects in a collaborative development environment where I can leverage my skills in Python, AI, and backend development.
+GOAL
+Seeking Backend/AI Developer roles at scalable product companies.

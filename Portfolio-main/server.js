@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Try different ports
 const PORT = findAvailablePort([3001, 3002, 5000, 4000, 3003]);
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyAC70TYlj3R2sKDsN4q1tL6UefF7BT2Xp0';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyBYi-MJURUhIRFL4wp9qGjUskuZrHNSDgI';
 
 // Function to find available port
 function findAvailablePort(ports) {
@@ -38,7 +38,7 @@ function findAvailablePort(ports) {
 
 // Initialize Gemini
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 console.log(model)
 console.log('✅ model initialized');
 // Load Knowledge Base
