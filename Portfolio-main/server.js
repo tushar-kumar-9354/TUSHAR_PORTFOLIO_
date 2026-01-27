@@ -38,7 +38,7 @@ function findAvailablePort(ports) {
 
 // Initialize Gemini
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 console.log(model)
 console.log('✅ model initialized');
 // Load Knowledge Base
@@ -141,6 +141,7 @@ ANSWER:`;
     
   } catch (error) {
     console.error('❌ API Error:', error.message);
+    console.error('Error details:', error);
     
     // Fallback response
     res.status(500).json({

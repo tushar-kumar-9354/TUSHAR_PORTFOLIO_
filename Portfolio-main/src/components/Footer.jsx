@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import XIcon from '@mui/icons-material/X';
+
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Footer=()=>{
