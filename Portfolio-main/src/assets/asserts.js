@@ -163,7 +163,7 @@ export const skillsData = {
     
     // Beginner
     { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", level: "Beginner" },
-    { name: "Tailwind CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg", level: "Beginner" },
+    { name: "Tailwind CSS", icon: "https://tailwindcss.com/_next/static/media/tailwindcss-mark.96ee6a5a.svg", level: "Beginner" },
     { name: "CodePen", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-original.svg", level: "Beginner" }
 ],
 
@@ -187,6 +187,95 @@ backend: [
     
     // Intermediate
     { name: "Flask", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg", level: "Intermediate" }
+],
+aiSkills: [
+  { 
+    name: "Generative AI", 
+    icon: "https://img.icons8.com/fluency/96/artificial-intelligence.png", 
+    level: "Expert" 
+  },
+  { 
+    name: "Prompt Engineering", 
+    icon: "https://img.icons8.com/fluency/96/idea.png", 
+    level: "Expert" 
+  },
+  { 
+    name: "Large Language Models (LLMs)", 
+    icon: "https://img.icons8.com/fluency/96/brain.png", 
+    level: "Expert" 
+  },
+  { name: "Gemini API", icon: "https://images.seeklogo.com/logo-png/61/1/gemini-icon-logo-png_seeklogo-611605.png", level: "Expert" },
+  { 
+    name: "LangChain", 
+    icon: "https://img.icons8.com/color/96/chain.png", 
+    level: "Expert" 
+  },
+  { 
+    name: "AI Agents", 
+    icon: "https://img.icons8.com/fluency/96/robot.png", 
+    level: "Expert" 
+  },
+  { 
+    name: "AI + Backend Integration", 
+    icon: "https://img.icons8.com/fluency/96/server.png", 
+    level: "Expert" 
+  },
+  
+  { 
+    name: "Agentic AI", 
+    icon: "https://cdn.prod.website-files.com/67efa112fb94a795e40d92ee/6863a1206e0d5a21d2d71878_Untitled%20design%20(7).webp", 
+    level: "Advanced" 
+  },
+  { 
+    name: "Retrieval-Augmented Generation (RAG)", 
+    icon: "https://www.weka.io/wp-content/uploads/files/2024/10/Retrieval-Augmented-Generation_featured-image.jpg", 
+    level: "Advanced" 
+  },
+  { 
+    name: "LangGraph", 
+    icon: "https://img.icons8.com/fluency/96/workflow.png", 
+    level: "Advanced" 
+  },
+  { 
+    name: "Ollama", 
+    icon: "https://images.seeklogo.com/logo-png/59/1/ollama-logo-png_seeklogo-593420.png", 
+    level: "Advanced" 
+  },
+  { 
+    name: "Natural Language Processing (NLP)", 
+    icon: "https://img.icons8.com/fluency/96/chat.png", 
+    level: "Advanced" 
+  },
+  { 
+    name: "Sentiment Analysis", 
+    icon: "https://img.icons8.com/fluency/96/positive-dynamic.png", 
+    level: "Advanced" 
+  },
+  { 
+    name: "Semantic Search", 
+    icon: "https://img.icons8.com/fluency/96/search.png", 
+    level: "Advanced" 
+  },
+  
+  
+  { name: "Fine-tuning LLMs", icon: "https://img.icons8.com/fluency/48/settings.png", level: "Advanced" },
+   { name: "Hugging Face Transformers", icon: "https://huggingface.co/front/assets/huggingface_logo.svg", level: "Advanced" },
+{ name: "OpenAI / GPT APIs", icon: "https://cdn.worldvectorlogo.com/logos/openai-2.svg", level: "Advanced" },
+  { 
+    name: "Text & Vector Embeddings", 
+    icon: "https://img.icons8.com/fluency/96/vector.png", 
+    level: "Advanced" 
+  },
+  { 
+    name: "Speech-to-Text (Vosk)", 
+    icon: "https://img.icons8.com/fluency/96/microphone.png", 
+    level: "Advanced" 
+  },
+  { 
+    name: "Text-to-Speech (gTTS)", 
+    icon: "https://img.icons8.com/fluency/96/speaker.png", 
+    level: "Advanced" 
+  },
 ],
 
 csFundamentals: [

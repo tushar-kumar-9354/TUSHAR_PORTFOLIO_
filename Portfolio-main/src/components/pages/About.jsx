@@ -216,43 +216,54 @@
 
 
     {/* AI Tools & Prompt Engineering */}
-    <div className="mb-16">
-        <h2 className="lg:text-2xl text-xl font-semibold mb-6 text-gray-700 dark:text-gray-300 flex items-center">
-            <span className="w-1 h-6 bg-pink-500 mr-3 rounded"></span>
-            {t('aiToolsPrompt', 'AI Tools & Prompt Engineering')}
-        </h2>
-        
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6">
-            {skillsData?.aitools?.map((skill, index) => (
-                <div key={index} className="group bg-white dark:bg-gray-800 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hid border border-gray-100 dark:border-gray-700">
-                    <div className="flex flex-col items-center text-center">
-                        <div className="relative mb-3 sm:mb-4">
-                            <div className="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center rounded-lg bg-gradient-to-br from-pink-50 to-rose-100 dark:from-pink-900/20 dark:to-rose-900/20 p-2">
-                                <img 
-                                    src={skill.icon} 
-                                    className="w-8 h-8 sm:w-10 sm:h-10 object-contain group-hover:scale-110 transition-transform duration-300" 
-                                    alt={skill.name}
-                                    loading="lazy"
-                                    onError={(e) => {
-                                        e.target.onerror = null;
-                                        e.target.src = "https://img.icons8.com/color/48/000000/artificial-intelligence.png";
-                                    }}
-                                />
-                            </div>
+            {/* AI & Agentic Systems Skills */}
+<div className="mb-16">
+    <h2 className="lg:text-2xl text-xl font-semibold mb-8 text-gray-700 dark:text-gray-300 flex items-center">
+        <span className="w-1 h-6 bg-purple-500 mr-3 rounded"></span>
+        {t('aiSkills', 'AI & Agentic Systems')}
+    </h2>
+    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+        {skillsData?.aiSkills?.map((skill, index) => (
+            <div key={index} className="group bg-white dark:bg-gray-800 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hid border border-gray-100 dark:border-gray-700">
+                <div className="flex flex-col items-center text-center">
+                    <div className="relative mb-3 sm:mb-4">
+                        <div className="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center rounded-lg bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 p-2">
+                            <img 
+                                src={skill.icon} 
+                                className="w-8 h-8 sm:w-10 sm:h-10 object-contain group-hover:scale-110 transition-transform duration-300" 
+                                alt={skill.name}
+                                loading="lazy"
+                                onError={(e) => {
+                                    e.target.onerror = null;
+                                    e.target.style.display = 'none';
+                                    const parent = e.target.parentElement;
+                                    if (parent) {
+                                        const fallbackIcon = document.createElement('div');
+                                        fallbackIcon.className = "w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center";
+                                        fallbackIcon.innerHTML = `
+                                            <svg class="w-full h-full text-purple-600 dark:text-purple-400" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4v6zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21z"/>
+                                            </svg>
+                                        `;
+                                        parent.appendChild(fallbackIcon);
+                                    }
+                                }}
+                            />
                         </div>
-                        <h3 className="font-semibold text-gray-800 dark:text-gray-200 text-sm mb-2">{skill.name}</h3>
-                        <span className={`px-3 py-1 rounded-full text-xs font-medium ${
-                            skill.level === 'Expert' ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300' :
-                            skill.level === 'Advanced' ? 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300' :
-                            'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300'
-                        }`}>
-                            {skill.level}
-                        </span>
                     </div>
+                    <h3 className="font-semibold text-gray-800 dark:text-gray-200 text-sm mb-2">{skill.name}</h3>
+                    <span className={`px-3 py-1 rounded-full text-xs font-medium ${
+                        skill.level === 'Expert' ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300' :
+                        skill.level === 'Advanced' ? 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300' :
+                        'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300'
+                    }`}>
+                        {skill.level}
+                    </span>
                 </div>
-            ))}
-        </div>
+            </div>
+        ))}
     </div>
+</div>
     <div className="mb-16">
         <h2 className="lg:text-2xl text-xl font-semibold mb-8 text-gray-700 dark:text-gray-300 flex items-center">
             <span className="w-1 h-6 bg-blue-500 mr-3 rounded"></span>
