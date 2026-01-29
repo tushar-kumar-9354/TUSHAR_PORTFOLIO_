@@ -3,15 +3,17 @@ const cors = require('cors');
 const fs = require('fs').promises;
 const path = require('path');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
-
+require('dotenv').config(); 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
 // Try different ports
 const PORT = findAvailablePort([3001, 3002, 5000, 4000, 3003]);
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyBYi-MJURUhIRFL4wp9qGjUskuZrHNSDgI';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
+
+console.log('Environment loaded:', process.env.NODE_ENV);
 // Function to find available port
 function findAvailablePort(ports) {
   const net = require('net');
