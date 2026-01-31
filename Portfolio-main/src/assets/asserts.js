@@ -203,7 +203,7 @@ aiSkills: [
     name: "Large Language Models (LLMs)", 
     icon: "https://img.icons8.com/fluency/96/brain.png", 
     level: "Expert" 
-  },
+  },    
   { name: "Gemini API", icon: "https://images.seeklogo.com/logo-png/61/1/gemini-icon-logo-png_seeklogo-611605.png", level: "Expert" },
   { 
     name: "LangChain", 

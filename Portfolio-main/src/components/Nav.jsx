@@ -23,7 +23,7 @@ const Nav=()=>{
                     
                     <NavLink to="/project" className={({isActive})=>isActive?"text-blue-600 font-semibold":"text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"}>
                         {t('Projects', 'परियोजनाएं')}
-                    </NavLink>
+ </NavLink>
 
                     <NavLink to="/contact" className={({isActive})=>isActive?"text-blue-600 font-semibold":"text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"}>
                         {t('Contact', 'संपर्क')}
