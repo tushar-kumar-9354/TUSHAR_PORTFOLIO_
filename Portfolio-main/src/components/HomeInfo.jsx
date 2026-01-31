@@ -29,7 +29,7 @@ const HomeInfo=({currentStage})=>{
                 <br/>
                 <span className="text-xs sm:text-sm">{t('homeInfoTitle')}</span>
             </h1>
-        ),
+        ), 
         2:(
             <InfoBox 
             text={t('homeInfoStage2')}
