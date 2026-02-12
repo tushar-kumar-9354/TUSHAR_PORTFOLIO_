@@ -45,7 +45,7 @@ const Nav=()=>{
                         )}
                     </button>
                     
-                    <a className="bg-black dark:bg-white text-white dark:text-black px-3 lg:px-5 py-2 rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-200 text-sm lg:text-base" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/15pGuSjvFpziYVMTOeSxLbvm35Ed2oRNZ/view">
+                    <a className="bg-black dark:bg-white text-white dark:text-black px-3 lg:px-5 py-2 rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-200 text-sm lg:text-base" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1vLd2typ-D9WmfbYhBOGEWa5Qho6cBmTt/view?usp=sharing">
                         {t('Resume', 'रिज़्यूमे')}
                     </a>
                 </nav>
@@ -72,7 +72,7 @@ const Nav=()=>{
                         className="bg-black dark:bg-white text-white dark:text-black px-3 py-2 rounded-lg text-xs font-medium hover:shadow-lg transition-all duration-200" 
                         target="_blank" 
                         rel="noopener noreferrer" 
-                        href="https://drive.google.com/file/d/15pGuSjvFpziYVMTOeSxLbvm35Ed2oRNZ/view"
+                        href="https://drive.google.com/file/d/1vLd2typ-D9WmfbYhBOGEWa5Qho6cBmTt/view?usp=sharing"
                     >
                         {t('Resume', 'रिज़्यूमे')}
                     </a>
