@@ -14,7 +14,7 @@ export const projects = [
       "Scalable system design"
     ],
     role: "Freelance Software Developer",
-    liveLink: "https://kpregtech-website-7uy9.onrender.com/",
+    liveLink: "https://kpregtech.com/",
     githubLink: "https://github.com/tushar-kumar-9354",
     type: "Professional Work",
     color: "#eef2ff"
